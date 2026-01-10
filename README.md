@@ -42,29 +42,35 @@ Key capabilities include:
 
 ## Set Up and Configurations
 ### Hardware Set Up and Configurations
-Rain Sensor
-DO Pin -> NodeMCU Pin23 / Breadboard A18
-VCC Pin -> Breadboard Power Rail Positive (left)
-GND Pin -> Breadboard Power Rail Negative (left)
-Ultrasonic Sensor
-VCC Pin -> Breadboard Power Rail Positive (left)
-GND Pin -> Breadboard Power Rail Negative (left)
-TRIG Pin -> NodeMCU Pin5 /Breadboard A10
-ECHO Pin -> NodeMCU Pin17 /Breadboard A9
-Resistors
-Green LED Cathode (Breadboard F24) -> Breadboard Power Rail Negative (Right)
-Yellow LED Cathode (Breadboard F26) -> Breadboard Power Rail Negative (Right)
-Yellow LED Cathode (Breadboard F28) -> Breadboard Power Rail Negative (Right)
-Green LED
+### Rain Sensor
+**DO** Pin -> NodeMCU Pin23 / Breadboard A18
+**VCC** Pin -> Breadboard Power Rail Positive (left)
+**GND** Pin -> Breadboard Power Rail Negative (left)
+
+### Ultrasonic Sensor
+**VCC Pin** -> Breadboard Power Rail Positive (left)
+**GND Pin** -> Breadboard Power Rail Negative (left)
+**TRIG Pin** -> NodeMCU Pin5 /Breadboard A10
+**ECHO Pin** -> NodeMCU Pin17 /Breadboard A9
+
+### Resistors
+**Green LED Cathode (Breadboard F24)** -> Breadboard Power Rail Negative (Right)
+**Yellow LED Cathode (Breadboard F26)** -> Breadboard Power Rail Negative (Right)
+**Yellow LED Cathode (Breadboard F28)** -> Breadboard Power Rail Negative (Right)
+
+### Green LED
 Anode (Breadboard F23), Cathode (Breadboard F24)
 SIG Pin (Breadboard H23) -> NodeMCU Pin25 / Breadboard J11
-Yellow LED
+
+### Yellow LED
 Anode (Breadboard F25), Cathode (Breadboard F26)
 SIG Pin (Breadboard H25) -> NodeMCU Pin26 / Breadboard J10
-Red LED
+
+### Red LED
 Anode (Breadboard F27), Cathode (Breadboard F28)
 SIG Pin (Breadboard H27) -> NodeMCU Pin27 / Breadboard J9
-Breadboard
+
+### Breadboard
 NodeMCU 5V / Breadboard J1 -> Breadboard Power Rail Positive (Right)
 NodeMCU GND / Breadboard J6 -> Breadboard Power Rail Negative (Right)
 NodeMCU GND / Breadboard A19 -> Breadboard Power Rail Negative (Left)
