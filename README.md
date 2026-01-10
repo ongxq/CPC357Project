@@ -37,7 +37,7 @@ Key capabilities include:
     - Historical mode (1h, 6h, 24h, or custom date range)
 
 **Data Tables**
-  - Sensor data table (water level, rain state, timestamp)
+  - Sensor data table (water level, rain state, status, distance, water depth, timestamp)
   - 5-day weather forecast table
 
 ## Set Up and Configurations
