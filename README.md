@@ -43,9 +43,9 @@ Key capabilities include:
 ## Set Up and Configurations
 ### Hardware Set Up and Configurations
 ### Rain Sensor
-**DO** Pin -> NodeMCU Pin23 / Breadboard A18
-**VCC** Pin -> Breadboard Power Rail Positive (left)
-**GND** Pin -> Breadboard Power Rail Negative (left)
+-**DO** Pin -> NodeMCU Pin23 / Breadboard A18
+-**VCC** Pin -> Breadboard Power Rail Positive (left)
+-**GND** Pin -> Breadboard Power Rail Negative (left)
 
 ### Ultrasonic Sensor
 **VCC Pin** -> Breadboard Power Rail Positive (left)
